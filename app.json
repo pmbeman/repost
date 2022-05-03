@@ -52,5 +52,15 @@
     "mocha": "^7.2.0",
     "ts-mocha": "^6.0.0",
     "typescript": "^3.9.5"
-  }
+  },
+    "env":{
+      "IG_TEST_USER":{
+        "description" : "your instagram username",
+        "required":true
+      },
+      "IG_TEST_USER":{
+        "description" : "your instagram password",
+        "required":true
+      }
+    },
 }
