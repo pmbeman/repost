@@ -58,7 +58,7 @@
         "description" : "your instagram username",
         "required":false
       },
-      "IG_TEST_USER":{
+      "IG_TEST_PASS":{
         "description" : "your instagram password",
         "required":false
       }
