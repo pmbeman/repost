@@ -57,11 +57,11 @@
     "env":{
       "IG_TEST_USER":{
         "description" : "your instagram username",
-        "required":false
+        "required":true
       },
       "IG_TEST_PASS":{
         "description" : "your instagram password",
-        "required":false
+        "required":true
       },
       "NPM_CONFIG_PRODUCTION":{
         "description" : "don't touch if you dont know what to do",
