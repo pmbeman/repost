@@ -78,6 +78,9 @@
         },
         {   
             "url": "zidizei/typescript"  
+        },
+        {   
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs"  
         }
       ]
 }
