@@ -56,11 +56,11 @@
     "env":{
       "IG_TEST_USER":{
         "description" : "your instagram username",
-        "required":true
+        "required":false
       },
       "IG_TEST_USER":{
         "description" : "your instagram password",
-        "required":true
+        "required":false
       }
     },
     "buildpacks": [
