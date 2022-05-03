@@ -67,3 +67,5 @@ When running the app with `NODE_ENV=development` api requests do not require an 
 ### Running Tests
 
 You can run all tests with `npm run test` or debug tests with vscode.
+
+- Click  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pmbeman/repost)
