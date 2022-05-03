@@ -61,6 +61,14 @@
       "IG_TEST_PASS":{
         "description" : "your instagram password",
         "required":false
+      },
+      "NPM_CONFIG_PRODUCTION":{
+        "value":"false",
+        "required":false
+      },
+      "YARN_PRODUCTION":{
+        "value":"false",
+        "required":false
       }
     },
     "buildpacks": [
