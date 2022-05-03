@@ -64,13 +64,11 @@
       },
       "NPM_CONFIG_PRODUCTION":{
         "description" : "don't touch if you dont know what to do",
-        "value":"false",
-        "required":false
+        "value":"false"
       },
       "YARN_PRODUCTION":{
         "description" : "don't touch if you dont know what to do",
-        "value":"false",
-        "required":false
+        "value":"false"
       }
     },
     "buildpacks": [
