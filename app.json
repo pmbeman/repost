@@ -8,7 +8,8 @@
     "test:git": " NODE_ENV=CI ts-mocha -p tsconfig.json test/**/*.ts --exit",
     "dev": "node scripts/run-dev.js",
     "start": "NODE_ENV=production node build/src/app.js",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "start": "pm2-runtime start prettier.config.js"
   },
   "license": "MIT",
   "repository": {
