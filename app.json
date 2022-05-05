@@ -66,10 +66,10 @@
     },
     "buildpacks": [
         {   
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs"  
+            "url": "heroku/nodejs"  
         },
         {   
-            "url": "https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack"  
+            "url": "jontewks/puppeteer"  
         }
       ]
 }
