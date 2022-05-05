@@ -62,14 +62,6 @@
       "IG_TEST_PASS":{
         "description" : "your instagram password",
         "required":true
-      },
-      "NPM_CONFIG_PRODUCTION":{
-        "description" : "don't touch if you dont know what to do",
-        "value":"false"
-      },
-      "YARN_PRODUCTION":{
-        "description" : "don't touch if you dont know what to do",
-        "value":"false"
       }
     },
     "buildpacks": [
@@ -77,7 +69,7 @@
             "url": "https://github.com/heroku/heroku-buildpack-nodejs"  
         },
         {   
-            "url": "https://github.com/zidizei/heroku-buildpack-tsc"  
+            "url": "https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack"  
         }
       ]
 }
