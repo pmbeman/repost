@@ -62,6 +62,10 @@
       "IG_TEST_PASS":{
         "description" : "your instagram password",
         "required":true
+      },
+      "NODE_ENV":{
+        "description" : "don't touch if you dont know what to do",
+        "value":"development"
       }
     },
     "buildpacks": [
